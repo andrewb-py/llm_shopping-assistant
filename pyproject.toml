@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "tbank"
+version = "0.1.0"
+description = "it purple hack, tbank case"
+authors = ["Andrew <andrew.baevski@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+jupyter = "^1.1.1"
+numpy = "^1.26.4"
+pandas = "^2.2.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
